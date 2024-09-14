@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2a2a2a;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    color: #ff4081;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    background: url('GROUP_9-removebg.png') no-repeat center;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+
+.main-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.member-card {
+    background: #3a3a3a;
+    border-radius: 9px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.member-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #ffffff;
+}
+.input-field, .textarea-field {
+    background-color: #3a3a3a;
+    color: #ffffff; 
+    border: 1px solid #555; 
+    border-radius: 5px; 
+    padding: 10px; 
+    font-size: 16px; 
+    width: 100%; 
+    max-width: 500px; 
+    margin-bottom: 15px; 
+    box-sizing: border-box; 
+}
+
+
+.input-field {
+    height: 40px; 
+}
+
+
+.textarea-field {
+    resize: vertical;/
+}
+
+
+.input-field:focus, .textarea-field:focus {
+    border-color: #ff4081; 
+    outline: none; 
+}
+
+.submit-button {
+    background-color: #ffffff; 
+    color: #2b2a2a; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 10px; 
+    font-size: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    width: auto; 
+    max-width: 200px; 
+}
+
+
+@media (max-width: 600px) {
+    .submit-button {
+        width: 100%; 
+    }
+}
+
+.submit-button:hover {
+    background-color: #f4eded; 
+}
+
+.submit-button:active {
+    background-color: #fdfdfd; 
+}
+body {  
+    background-color: #121212; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif;  
+}  
+
+.container {  
+    max-width: 800px;  
+    margin: 0 auto;  
+    padding: 20px;  
+}  
+
+h1, h2, h3, h4 {  
+    color: #e3e3e3; 
+}  
+
+.contact-form {  
+    background-color: #1e1e1e;   
+    padding: 20px;  
+    border-radius: 8px;  
+    margin-top: 20px;  
+}  
+
+.input-field, .textarea-field {  
+    width: 100%;  
+    padding: 10px;  
+    margin: 10px 0;  
+    border: 1px solid #ff4081;   
+    border-radius: 4px;  
+    background-color: #2a2a2a; 
+    color: #ffffff; 
+}
+
+.submit-button {  
+    background-color: #ff4081;  
+    color: #ffffff;   
+    padding: 10px 15px;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;  
+}  
+
+.submit-button:hover {  
+    background-color: #e91e63;  
+}  
+
+.submitted-info {  
+    background-color: #1e1e1e;   
+    padding: 15px;  
+    border-radius: 8px;  
+    margin-top: 20px;  
+    border: 1px solid #ff4081; 
+}  
+
+.submitted-info h2 {  
+    margin: 0 0 10px 0;  
+}  
+
+.submitted-info p {  
+    margin: 5px 0;  
+}
